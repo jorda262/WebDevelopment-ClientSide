@@ -1,0 +1,92 @@
+html, body, header, footer, hgroup, nav, article, section, figure,
+figcaption, h1, h2, h3, ul, li, body, div, p, img
+{
+  margin: 0px;
+  padding: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  border: 0;
+}
+body{font-family: Calibri;}
+#outerMain
+{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 30px;
+  border: 1pt black;
+  border-style: solid;
+}
+div h1{
+    text-align: center;
+    margin-top: -10px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 15px;
+}
+div h1 span
+{
+    background-color: white;
+    padding: 0 30% 0 30%;
+    font-weight: bold;
+    font-size: 16px;
+}
+#innerMain
+{margin: 10px 30px 10px 30px;}
+#title{width: 99%;}
+#titleInput{width: 100%;}
+.red
+{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  padding: 5px 3px 5px 3px;
+}
+#titleBorder
+{
+  width: 100%;
+  height: 20px;
+}
+#descriptionBorder
+{
+  padding-bottom: 1px;
+  width: 85%;
+  height: 100px;
+}
+#accept{clear: both;}
+#iAccept{margin-left: 10px;}
+#break{height: 1px}
+#left{width: 25em;float: left;}
+#right{float: right; margin: 20px 0 10px 0;}
+#location{margin: 10px 0 40px 0;}
+#continentName{margin-top: 40px;}
+#countryName{margin-top: 10px;}
+.dropdown {width: 150px;}
+#cityName{margin-top: 10px;}
+#cityInput{width: 100%; margin-bottom: 50px;}
+#topRight
+{
+  border: 1pt lightblue;
+  border-style: solid;
+  margin-bottom: 10px;
+  padding: 10px 25px 10px 5px;
+}
+#bottomRight
+{
+  border: 1pt lightblue;
+  border-style: solid;
+  padding: 10px 25px 10px 5px;
+}
+#time{border: 1pt lightblue; border-style: solid;}
+#rate{float: left; margin: 10px 0 10px 0;}
+#time{float: right; margin: 10px 0 10px 0;padding: 10px 35px 10px 10px;}
+#buttons{clear: both; text-align: center; margin: 40px 0 20px 0;}
+.button
+{
+  background-color: #8ba1c4;
+  color: white;
+  height: 30px;
+  width: 110px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+#submit{margin-right: 5px;}

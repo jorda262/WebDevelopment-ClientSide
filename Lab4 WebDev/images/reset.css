@@ -1,0 +1,33 @@
+html, body, header, footer, hgroup, nav, article, section, figure,
+figcaption, h1, h2, h3, ul, li, body, div, p, img
+{
+  margin: 0;
+  padding: 5px;
+  font-size: 100%;
+  vertical-align: baseline;
+  border: 0;
+}
+html{background-color: midnightblue;}
+header, footer
+{
+  color: white;
+  background-color: #3D6271;
+  margin: 0em 4em 0.5em 4em;
+}
+section
+{
+  background-color: white;
+  margin: 0em 4em 0.5em 4em;
+}
+#topNav{background-color: gray; font-size: 20px; padding: 0px}
+header h1{font-weight: bold; font-size: 30px;
+          padding: 5px;}
+#p1{font-weight: bold; font-size: 12px;}
+#p2{font-style: italic; color: darkblue; opacity: 0.5;}
+a:link{color: lightblue;}
+a:visited{color: violet;}
+#p4{font-style: italic; color: darkblue; opacity: 0.5;}
+#border{border: 2px solid; padding: 3px; border-width: 1px;}
+.square{padding: 1px; display: block;}
+#p5{font-style: italic; color: darkblue; opacity: 0.5;}
+#p7{font-style: italic; color: darkblue; opacity: 0.5;}

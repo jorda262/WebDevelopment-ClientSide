@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Calender</title>
+  <link rel ="stylesheet" href ="lab5stylesheet.css"/>
+</head>
+<body>
+  <table>
+    <tr>
+      <caption>October 2014</caption>
+    </tr>
+    <tr id ="days">
+      <td>S</td>
+      <td>M</td>
+      <td>T</td>
+      <td>W</td>
+      <td>T</td>
+      <td>F</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <td colspan="3"></td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+      <td>10</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>13</td>
+      <td>14</td>
+      <td>15</td>
+      <td>16</td>
+      <td>17</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>20</td>
+      <td>21</td>
+      <td>22</td>
+      <td>23</td>
+      <td>24</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>27</td>
+      <td>28</td>
+      <td>29</td>
+      <td>30</td>
+      <td>31</td>
+      <td></td>
+    </tr>
+    <tr id = "lightgray">
+      <td id = "sep"colspan="3">
+        <a  href ="#">&#171; sep</a>
+      </td>
+      <td></td>
+      <td id = "nov" colspan="3">
+        <a href ="#">&#187; nov</a>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <br>
+<form method="POST" action="http://www.randyconnolly.com/tests/process.php">
+  <fieldset>
+    <legend>Meeting Details</legend>
+    <p>
+      <label>Client Name:</label>
+      <input type="text" placeholder="Enter name" name = "Name"/>
+    </p>
+    <p>
+      <label>First Meeting?</label>
+      <input type="checkbox" name ="First"/>
+    </p>
+    <p>
+      <label>Client Type:</label>
+      <input type="radio" name ="type" value="School">School
+      <input type="radio" name ="type" value="College">College
+      <input type="radio" name ="type" value="University">University
+    </p>
+    <p>
+      <label>Meeting Date</label>
+      <input type="date"  name = "date"/>
+    </p>
+    <p>
+      <input type ="submit" value ="submit"/>
+    </p>
+  </fieldset>
+    <br>
+  </form>
+</body>
+</html>

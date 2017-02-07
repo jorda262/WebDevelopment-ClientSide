@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+  <meta charset = "utf-8"/>
+<title>Art Store pg1</title>
+<link rel ="stylesheet" href ="pa2stylesheet.css"/>
+</head>
+<body>
+  <header>
+    <nav>
+    <ul id = "toplist">
+      <li class = "list1"><a href="#">Checkout</a></li>
+      <li class = "list1"><a href="#">Shopping Cart</a></li>
+      <li class = "list1"><a href="#">Wish List</a></li>
+      <li class = "list1"><a href="#">My Account</a></li>
+    </ul>
+    </nav>
+</header>
+<h1>Art Store</h1>
+<nav>
+<ul id = "secondlist">
+  <li class = "list2"><a href="pageOne.html">Home</a></li>
+  <li class = "list2"><a href="#">About Us</a></li>
+  <li class = "list2"><a href="#">Art Works</a></li>
+  <li class = "list2"><a href="#">Artists</a></li>
+</ul>
+</nav>
+<br>
+  <form method="post" action="http://www.randyconnolly.com/tests/process.php">
+    <h2 id ="registration">Customer Registration</h2>
+    <h2 class="numbered">1. User Info</h2>
+    <hr>
+    <table>
+      <tr><td class="bold">First Name</td><td class="bold">Last Name</td></tr>
+      <tr>
+        <td><input type="text" name = "first"/></td>
+        <td><input type="text" name = "last"/></td>
+      </tr>
+      <tr>
+        <td colspan="2" class="bold">Email</td>
+      </tr>
+      <tr>
+        <td colspan="2"><input id="email" type="email" placeholder="format for email is xxx@yyy.zzz" name = "email"/></td>
+      </tr>
+      <tr><td class="bold">Password</td><td class="bold">Password Repeat</td></tr>
+      <tr>
+        <td><input type="password" placeholder="at least 8 characters" name = "pass1"/></td>
+        <td><input type="password" placeholder="at least 8 characters" name = "pass2"/></td>
+      </tr>
+    </table>
+    <br>
+    <h2 class="numbered">2. Location</h2>
+    <hr>
+    <table>
+      <tr><td colspan="3" class="bold">Address</td></tr>
+      <tr><td colspan="3"><input id="address" type="text" name = "address"/></td></tr>
+      <tr><td class="bold">City</td><td class="bold">State</td><td class="bold">Zip</td></tr>
+      <tr>
+        <td><input type="text" name = "city"/></td>
+        <td><input type="text" name = "state"/></td>
+        <td><input type="text" name = "zip"/></td>
+      </tr>
+      <tr><td class="bold">Phone</td><td colspan="2" class="bold">Country</td></tr>
+      <tr>
+        <td><input type="tel" placeholder="NNN-NNN-NNNN"
+          pattern ="[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]"
+          name = "phone"/></td>
+        <td colspan="2">
+          <select name="country">
+            <option>Canada</option>
+            <option>England</option>
+            <option>Mexico</option>
+            <option>United Stats</option>
+          </select>
+        </td>
+      </tr>
+      <tr><td colspan="3" class="bold">Continent</td></tr>
+      <tr>
+        <td colspan = "3"><input type="radio" name ="continent" value="1"><label>North America</label></td>
+      </tr>
+      <tr>
+        <td colspan="3"><input type="radio" name ="continent" value="2"><label>Europe</label></td>
+      </tr>
+      <tr>
+        <td colspan="3"><input type="radio" name ="continent" value="3"><label>South America</label></td>
+      </tr>
+    </table>
+    <br>
+    <h2 class="numbered">3. Personal Details</h2>
+    <hr>
+    <table>
+      <tr><td class="bold">Birthday</td><td class="bold">Favorite Color</td></tr>
+      <tr>
+        <td><input type="date" placeholder="dd/mm/yyyy" name="birthday"/></td>
+        <td><input type="color" name="favorite"/></td>
+      </tr>
+      <tr>
+        <td colspan="2" class="bold">Interest in Art</td>
+      </tr>
+      <tr>
+        <td colspan="2">Minimal<input type="range" min="1" max="10" name="interest"/>Love it!</td>
+      </tr>
+    </table>
+    <br>
+    <h4 class="numbered">4. All Done</h4>
+    <hr>
+    <input type="checkbox" name = "accept" value="on"/>
+    I agree to the <a href="#">Terms of the Site</a>
+    <br>
+    <button id ="submitbutton" type ="submit">
+      <img src = "button_ok.png" alt ="ok"/>
+      Sign me up!
+    </button>
+
+  </form>
+  <br>
+  <footer>
+    <p>All images are copyright to their owners. This is just a
+       hypothetical site &copy; 2014 Copyright Art Store </p>
+  </footer>
+
+</body>
+</html>

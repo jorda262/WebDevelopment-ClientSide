@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../css/style.css">
+  <script language = "javascript" type="text/javascript" src = "../js/registrationForm.js"></script>
+  <title>University of Minnesota Gophers</title>
+</head>
+
+<body>
+  <div id="banner">
+    <h1 id="mainTitle">University of Minnesota Gophers</h1>
+  </div>
+
+  <div id="middle">
+    <div id="nav">
+      <ul>
+        <li><a href="index.html">Home<a></li>
+        <hr>
+        <li><a href="registrationForm.html">Register Student</a></li>
+        <hr>
+        <li><a href="allStudents.html">All Students</a></li>
+        <hr>
+        <li><a href="search.html">Lookup Student</a></li>
+        <hr>
+      </ul>
+    </div>
+
+    <div id="main">
+      <h1>Registration Form<h1>
+      <form id="registration" action ="#">
+        <p><label>First Name: </label><input type="text" placeholder="First name" id="first" name="first" required>(First name)</p>
+        <p><label>Last Name: </label><input type="text" placeholder="Last name" id="last" name="last" required>(Last name)</p>
+        <p><label>Address: </label><input type="text" placeholder="Address" id="address" name="address" required>(Address)</p>
+        <p><label>City: </label><input type="text" placeholder="city" id="city" name="city" required> <label>State: </label><input type="text" placeholder="State" id="state" name="state"></p>
+        <p><label>Zip Code: </label><input type="text" placeholder="zip code" id="zip" name="zip" required></p>
+        <p><label>Email: </label><input    type="email" placeholder="name@domain.com" id="email" name="email" required>(name@domain.com)</p>
+        <p><label>Phone: </label><input type="phone" placeholder="111-111-1111" id="phone" name="phone" required>(XXX-XXX-XXXX)
+        <p><input type="button" id="add" value="Add">
+        <input type="button" id="clear" value="Clear"></p>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p id="bottom">Go Gophers</p>
+  </footer>
+</body>
+</html>

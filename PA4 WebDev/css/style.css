@@ -1,0 +1,58 @@
+html, body, header, footer, hgroup, nav, article, section, figure,
+figcaption, h1, h2, h3, ul, li, body, div, p, img {
+  margin: 0px;
+  padding: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  border: 0;
+  color: #ffd400;
+}
+#banner {
+  background-color: white;
+  text-align: center;
+  font-size: 36;
+  font-weight: bolder;
+  padding: 20px 0 20px 0;
+}
+#mainTitle{color: #510824;}
+#banner:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+#middle {
+  height: 700px;;
+  background-color: black;
+  position: relative;
+}
+#pic{width: 680px;}
+#nav {
+  height: inherit;
+  background-color: #ffd400;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20%;
+  text-align: center;
+}
+
+#nav ul {list-style-type: none; color: #510824;}
+a{text-decoration: none;}
+#main
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: inherit;
+  width: 80%;
+  background-color: #510824;;
+}
+#bottom{color: #510824;}
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  color: #510824;
+  height: 30px;
+}
+table{width: 100%;}

@@ -1,0 +1,126 @@
+
+html, body, header, footer, hgroup, nav, article, section, figure,
+figcaption, h1, h2, h3, ul, li, body, div, p, img
+{
+  margin: 0px;
+  padding: 5px;
+  font-size: 100%;
+  vertical-align: baseline;
+  border: 0;
+}
+body{font-family: Calibri; background-image: url("stucco.png")}
+html
+{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 0px;
+}
+header{margin-top: 0px;}
+#mainTitle{padding-top: : 0px;}
+footer
+{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+h1{font-size: 50px;font-weight: bold;}
+#toplist
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  font-weight: bold;
+}
+.list1{float: right;}
+.list1 a
+{
+  display: block;
+  color: lightgray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {background-color: #444;}
+#secondlist li{display: inline;}
+#secondlist a
+{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  padding: 14px 16px;
+}
+#secondlist
+{
+  background-color: grey;
+  padding: 18px;
+}
+#selfportrait{padding: 0px; font-size: 28px;}
+#author{padding-top: 0px;font-size: 14px;}
+#port1
+{
+  width: 275px;
+  float: left;
+  overflow: auto;
+}
+footer {clear: left;}
+form{background-color: white;}
+#price
+{
+  color: red;
+  font-size: 15px;
+  font-weight: bold;
+}
+#bigbuttons{border:1px solid lightgray;
+text-align: center;
+overflow: hidden;
+width: 65%;}
+#bigbuttons button{
+  width: 40%;
+  height: 40px;
+  color: blue;
+  padding: 0 3px 3px 3px;
+}
+#left{margin-right: 20px; font-weight: bold;}
+#right{margin-left: 20px; font-weight: bold;}
+#front
+{
+  border: solid 1px lightgray;
+  border-width: 100%;
+  padding-right: 400px;
+}
+.bold{font-weight: bold;}
+#details{font-size: 20px; font-weight: bold;}
+#artist
+{
+  border: solid 1px lightgray;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+  overflow: auto;
+}
+#container{background-color: white; padding:0px}
+.icon
+{
+  border: solid 1px lightgray;
+  margin-left: 25px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+  overflow: auto;
+}
+#similar{text-align: left;}
+#stopfloat{clear: left;}
+#submitbutton{padding: 0px; margin: 5px 0 10px 8px;}
+#email{width: 100%}
+#address{width: 100%}
+.bold{font-weight: bold;}
+hr{padding-top: 0px;}
+.numbered{padding-bottom: 0px;}
+#registration
+{
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 10px;
+}

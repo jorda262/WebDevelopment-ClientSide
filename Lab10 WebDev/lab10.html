@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="lab10.css">
+  <script type="text/JavaScript" src="lab10.js"></script>
+</head>
+<body>
+<div id="outerMain"><h1><span>Photo Details</span></h1>
+  <div id="innerMain">
+    <div id="header" class="red">
+      Title
+      <div id="titleBorder">
+      </div>
+    </div>
+    <br>
+    <div id="description" class="red">
+      Description
+      <div id="descriptionBorder">
+      </div>
+    </div>
+    <br>
+    <div id="location">
+      <div id="left">
+        <p id="continentName">Continent</p>
+        <select name="Continent">
+          <option>North America</option>
+          <option>South America</option>
+          <option>Europe</option>
+          <option>Asia</option>
+          <option>Africa</option>
+          <option>Australia</option>
+          <option>Antartica</option>
+        </select>
+        <p id="countryName">Country</p>
+        <select name="Country">
+          <option>United States</option>
+          <option>Canada</option>
+          <option>United Kingdom</option>
+          <option>China</option>
+          <option>Japan</option>
+          <option>Australia</option>
+          <option>South Africa</option>
+          <option>Brazil</option>
+          <option>Russia</option>
+        </select>
+        <p id="cityName">City</p>
+        <input id="cityInput" type="text" name "city">
+
+      </div>
+      <div id="right">
+        <div id="topRight">
+          <p>Copyright?</p>
+          <input type="radio" name ="copyright" value="1"><label>All rights reserved</label></br>
+          <input type="radio" name ="copyright" value="2"><label>Creative Commons</label>
+        </div>
+        <div id="bottomRight">
+          <p>Creative Commons Types</p>
+          <input type="checkbox" id="cbox1" value="1"><label>Attribution</label><br>
+          <input type="checkbox" id="cbox2" value="2"><label>Noncommercial</label><br>
+          <input type="checkbox" id="cbox3" value="3"><label>No Derivative Works</label><br>
+          <input type="checkbox" id="cbox4" value="4"><label>Share Alike</label>
+        </div>
+      </div>
+    </div>
+    <div id="accept" class="red">
+      I accept the software license<input type="checkbox" id="iAccept" value="yes">
+    </div>
+    <div id="bottom">
+      <div id="rate">
+        <p id="cityName">Rate this photo:</p>
+        <input id="ratePhoto" type="text" name "rating">
+        <p id="cityName">Color Collection:</p>
+        <input id="color" type="text" name "color">
+      </div>
+      <div id="time">
+        <p id="dateTaken">Date Taken:</p>
+        <input id="ratePhoto" type="text" name "date">
+        <p id="timeTaken">Time Taken:</p>
+        <input id="color" type="text" name "time">
+      </div>
+    </div>
+    <div id="buttons">
+      <button id="submit" class="button" type="submit">Submit Query</button>
+      <button id="clear" class="button" type="clear">Clear Form</button>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,93 @@
+h1, h2, h3, p, body, div
+{
+   font-family: Tahoma, Helvetica, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+h1
+{
+   font-size: 1.8em;
+   margin: 0.25em 0 0.25em 0;
+}
+h2
+{
+   font-size: 1.2em;
+   margin: 0.5em 0 0.25em 0;
+}
+p, body
+{
+   font-size: 0.9em;
+}
+p
+{
+   margin-bottom: 1em;
+}
+body
+{
+   background-color: white;
+}
+article
+{
+   background-color: #F5F5F5;
+   margin: 0 50px 0 300px;
+}
+figure
+{
+  float: left;
+  position: relative;
+}
+figcaption
+{
+   width: 140px;
+   background-color: black;
+   color:white;
+   height: 20px;
+   position: absolute;
+   top: 120px;
+   padding: 5px;
+}
+.overlayed
+{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.entry
+{
+   overflow: auto;
+   border-top: 1pt solid #ff8800;
+}
+.linkbutton
+{
+   background-color: #ff8800;
+   color: white;
+   text-decoration: none;
+   font-size: 0.75em;
+}
+.right
+{
+  float: right;
+  margin-top: 90px;
+}
+footer
+{
+   background-color: #474747;
+   color: #cacaca;
+   height: 200px;
+   padding-top: 30px;
+}
+footer h2 { color: #a4a1a1; }
+.footer-related
+{
+   border-top: 1pt solid #ff8800;
+   border-width: 80%;
+   float: left;
+   margin: 0 50px 0 10px;;
+   width: 300px;
+}
+.footer-section
+{
+   border-top: 1pt solid #ff8800;
+   border-width: 80%;
+}
+.footer-related img { margin: 3px; }

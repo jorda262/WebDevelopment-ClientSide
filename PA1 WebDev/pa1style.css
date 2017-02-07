@@ -1,0 +1,6 @@
+head{background-color: powderblue; font-size: 22px; font-weight: bold;}
+h1{background-color: powderblue; font-size: 22px; font-weight: bold; text-align: center;}
+#links{background-color: darkgray; text-align: center; vertical-align: top;}
+#hornimage{background-color: lightgray; text-align: center; vertical-align: top;}
+#footer{background-color: powderblue; font-size: 12px; font-weight: bold; text-align: center;}
+div{padding: 0; list-style-type: none;}

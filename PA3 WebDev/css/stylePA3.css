@@ -1,0 +1,240 @@
+html, body, header, footer, hgroup, nav, article, section, figure,
+figcaption, h1, h2, h3, ul, li, body, div, p, img
+{
+  margin: 0px;
+  padding: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  border: 0;
+}
+header
+{
+  background-color: #66ccff; margin: 0px;
+  width: 100%;
+padding: 7px;
+}
+header:after
+{
+  display: block;
+  content: "";
+  clear: both;
+}
+header nav:after{clear: both;}
+#headerBold
+{
+  font-size: 24px;
+  padding-left: 60px;
+  color: white;
+  width: auto;
+  float: left;
+}
+#topNavigation
+{
+  padding-top: 7px;
+  width: 500px;
+  float: left;
+  list-style-type: none;
+  overflow: hidden;
+}
+#topNavigation li
+{
+  padding-left: 50px;
+  display: inline;
+  text-decoration: none;
+}
+#topNavigation li a
+{
+  color: white;
+  text-decoration: none;
+}
+#MAIN{position: relative;}
+#leftMain
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15em;
+}
+#topLeft
+{
+  padding: 5% 0 4% 5%;
+  background-color: #fffccc;
+  width: 95%;
+  margin-bottom: 30px;
+}
+#nameBold{font-weight: bold;}
+#topLeftList li{display: inline;}
+#topLeftList li a{color: blue;}
+#middleLeft
+{
+  width: 95%;
+  padding: 5% 0 4% 5%;
+  background-color: #e0e0e0;
+  margin-bottom: 30px;
+}
+#middleLeft li
+{
+  list-style-type: none;
+  color: blue;
+}
+#bottomLeft
+{
+  width: 95%;
+  padding: 5% 0 4% 5%;
+  background-color: #e0e0e0;
+  margin-bottom: 30px;
+  height: 335px;
+}
+#bottomLeft1{margin-bottom: 0;}
+.blueHeaders
+{
+  padding: 10px 10px 10px 10px;
+  background-color: lightblue;
+  font-weight: bold;
+  font-size: 16pt;
+  width:84%;
+  height: 100%
+}
+.lists
+{
+  padding: 5px 15px 5px 0;
+  background-color: white;
+  list-style-type: none;
+}
+.user{float: left;}
+ul #insideList:after{
+  content: "";
+  visibility: hidden;
+  clear: both;
+  padding: 10px 0 10px 0;
+}
+#insideList{float: left;}
+#rightMain
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 19em;
+}
+#topRight
+{
+  width: 95%;
+  padding: 5% 0 4% 5%;
+  background-color: #e0e0e0;
+  margin-bottom: 30px;
+  height: 150px;
+}
+#topRight1{margin-bottom: 0;}
+#topRight2{width: 100%; padding: 0 0 5px 0;}
+.bigNumber
+{
+  font-weight: bold;
+  font-size: 20px;
+  color: gray;
+  float: left;
+  padding: 5px 10px 5px 10px;
+  text-align: center;
+  display: inline;
+}
+.secondList
+{
+  padding: 10px 10px 5px 10px;
+  background-color: white;
+  list-style-type: none;
+}
+#insideList1{width: 91%}
+ul #insideList1:after{
+  content: "";
+  visibility: hidden;
+  clear: both;
+  padding: 10px 0 10px 0;
+}
+#bottomRight
+{
+  width: 95%;
+  padding: 5% 0 4% 5%;
+  background-color: #e0e0e0;
+  margin-bottom: 30px;
+  height: 345px;
+}
+#bottomLeft1{margin-bottom: 0;}
+.books
+{
+  padding: 5px 15px 35px 10px;
+  background-color: white;
+  list-style-type: none;
+}
+.user1{float: left;padding: 5px 0 3px 5px;}
+ul #insideList2:after{
+  content: "";
+  visibility: hidden;
+  clear: both;
+  padding: 10px 0 10px 0;
+}
+#insideList2{float: left;width: 91%;}
+#links{margin: 5px 10px 5px 0;}
+#middleMain{margin: 5px 20em 0 15.5em;}
+#middleTop{padding: 10px 0 10px 30px;}
+#invoice
+{
+  font-weight: bold; font-size: 18pt;
+  padding: 10px 0 10px 30px;
+}
+#floatContainer{width: 100%; margin-bottom: 30px;}
+#divLeft{float: left; padding-left: 30px;
+padding-bottom: 20px;}
+#divRight{float: right; padding-right: 30px;}
+#pearsonAddress{list-style-type: none;}
+#marthaAddress{list-style-type: none;}
+#lineBreak{width: 90%; margin-top: 5px;}
+#bar{width: 90%}
+#uniqueDay
+{
+  background-color: #8fbc8f;
+  color: white;
+}
+#calendarTable
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+caption
+{
+  background-color: #8fbc8f;
+  padding: 0.50em;
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+.dayClass
+{
+  border: solid 1pt white;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 0.40em;
+  border-style: outset;
+}
+#days td
+{
+  height: 5px;
+  padding: 0.0em;
+  margin: auto;
+}
+.sendButton
+{
+  background-color: #8fbc8f;
+  color: white;
+  padding: 5px 45px 5px 45px;
+  margin: 10px 0 0 30px;
+  font-size: 14pt;
+}
+#sendButtonUnique{background-color: #66ccff;}
+#bookTable
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  font-size: 14px;
+}
+.italics{font-style: italic;}
+#tableHead{text-align: left;}

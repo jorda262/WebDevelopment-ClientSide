@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<HTML lang = "en">
+<head>
+<meta charset = "utf-8">
+	<title>table</title>
+	<style>
+		table,td {
+			border: 1pt black dotted;
+			text-align: center;
+		}
+
+		td {
+			padding: 0 10px 0 10px;
+		}
+
+	</style>
+	<script type = "text/javascript">
+		var first = parseInt(window.prompt('Please choose a number: '));
+		var second = parseInt(window.prompt('Please choose a number: '));
+		var third = parseInt(window.prompt('Please choose a number: '));
+		var fourth = parseInt(window.prompt('Please choose a number: '));
+		var fifth = parseInt(window.prompt('Please choose a number: '));
+
+    first = parseInt(first)
+
+		document.write("<table><tr><td>" + 'Number' +"</td><td>" + 'Squared' + "</td><td>" + 'Cubed' + "</td></tr>");
+		document.write("<tr><td>" + first +"</td><td>" + first*first + "</td><td>" + first*first*first + "</td></tr>");
+		document.write("<tr><td>" + second + "</td><td>" + second*second + "</td><td>" + second*second*second + "</td></tr>");
+		document.write("<tr><td>" + third + "</td><td>" + third*third + "</td><td>" + third*third*third + "</td></tr>");
+		document.write("<tr><td>" + fourth + "</td><td>" + fourth*fourth + "</td><td>" + fourth*fourth*fourth + "</td></tr>");
+		document.write("<tr><td>" + fifth + "</td><td>" + fifth*fifth + "</td><td>" + fifth*fifth*fifth + "</td></tr>");
+		document.write("<tr><td>" + five +"</td><td>" + five*five + "</td><td>" + five*five*five + "</td></tr></table");
+
+	</script>
+</head>
+</html>
